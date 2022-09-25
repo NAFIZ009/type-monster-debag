@@ -9,6 +9,7 @@
 </head>
 <body>
     <h1 class="text-center fw-bold text-primary mt-4">Blogs Today</h1>
+    <button class="btn btn-dark ms-3 position-absolute top-0 mt-2" onclick="backBtn()">Back</button>
     <div class="container">
         <div class="row gap-4 mt-4 ">
             <div class="card">
@@ -44,6 +45,10 @@
               </div>
         </div>
     </div>
-    
+    <script>
+        function backBtn(){
+            location.href='index.html';
+        }
+    </script>
 </body>
 </html>
